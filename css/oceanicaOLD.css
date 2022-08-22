@@ -1,0 +1,246 @@
+@font-face {
+  font-family: Impact;
+  src: url('/css/fonts/impact.ttf');
+}
+.logo{
+  width: 400px;
+}
+.logoText{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2.750em;
+}
+.logoSubTitle{
+  font-size: 15px;
+  margin-top: -38px;
+}
+.nossaExpertise{
+  text-align: center;
+  padding-bottom: 60px;
+}
+.linkVerMais{
+  text-decoration: none;
+}
+.alinhaItensTopo{
+  text-align: -webkit-center;
+}
+.alinhaTextoItensTopo{
+  text-align: center;
+}
+.iconOceanica{
+  font-size: 0.675em;
+}
+.favIcon{
+  color: #007bff;
+}
+.tituloNossosServicos{
+  padding-top: 0px !important;
+}
+.imagensServicos{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0px 0px;
+}
+.rounded-pill {
+  border-radius: 2px !important;
+  font-size: 14px;
+}
+
+.linkWhatsNossoServicos{
+  text-decoration: none;
+}
+
+.linkWhatsNossoServicos:hover{
+  text-decoration: none;
+}
+
+.vinteQuatroHoras{
+  -webkit-animation: color-change 2s infinite;
+  -moz-animation: color-change 2s infinite;
+  -o-animation: color-change 2s infinite;
+  -ms-animation: color-change 2s infinite;
+  animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% { color: red; }
+  50% { color: #198754; }
+  100% { color: red; }
+}
+@-moz-keyframes color-change {
+  0% { color: red; }
+  50% { color: #198754; }
+  100% { color: red; }
+}
+@-ms-keyframes color-change {
+  0% { color: red; }
+  50% { color: #198754; }
+  100% { color: red; }
+}
+@-o-keyframes color-change {
+  0% { color: red; }
+  50% { color: #198754; }
+  100% { color: red; }
+}
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: #198754; }
+  100% { color: red; }
+}
+
+@media only screen and (max-width: 991px) {
+  .segundoMenu {
+    display: none !important;
+  }
+  .logoText{
+    font-size: 1.750em;
+  }
+  .iconOceanica{
+    font-size: 0.675em;
+  }
+  .aproximaTexto{
+  margin-top: -80px;
+  }
+}
+
+@media only screen and (max-width:425px) {
+  .navbar-toggler{
+    font-size: 0.925rem;
+  }
+  .logoText{
+    font-size: 1.550em;
+  }
+  /* Texto: Nossos Serviços centralizado para smartphone */
+  .g-5, .gx-5 {
+    --bs-gutter-x: 0rem !important;
+  }
+  .bg-dark {
+    margin-bottom: 10px;
+  }
+  .bg-light {
+    margin-bottom: 10px;
+  }
+  .px-5 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .text-center {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+  .alinhaTextoItensTopo {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+  }
+}
+
+/* Ajusta os box do container nossos serviços */
+@media (min-width: 768px){
+  .pt-md-4 {
+    width: 424px;  
+  } 
+}
+
+@media (min-width: 1200px){
+  .display-5 {
+      font-size: 2rem;
+      font-weight: 700;
+  }
+}
+
+
+/* Efeito transição: Treme ao passar o mouse por cima */
+
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+/* Borda animada - Descupinização */
+
+
+.border { display:block; position:relative; width:100%; height:100% }
+
+.border::before, .border::after { content:""; display:block; box-sizing:border-box;
+                      position:absolute;z-index:5; pointer-events: none; 
+                      width:0; height:0; opacity:0; border:2px solid #007bff }
+
+.border::before { border-left:none; border-bottom:none; left:0; top:0;
+            transition:width .4s linear 1.5s, height .4s linear 1s, opacity .1s 2s }
+.border::after  { border-top:none; border-right:none; right:0; bottom:0;
+            transition:width .4s linear .5s, height .4s linear, opacity .1s 1s }
+
+.border:hover::before, .border:hover::after  { width:100%; height:100%; opacity:1 }
+
+.border:hover::before { transition:width .4s linear, height .4s linear .5s, opacity .1s }
+.border:hover::after  { transition:width .4s linear 1s, height .4s linear 1.5s, opacity .1s 1s }
