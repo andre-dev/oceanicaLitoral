@@ -269,3 +269,15 @@
 .textoBranco{
   color: #FFF;
 }
+
+/* Adicionando tamanho as imagens */
+
+.imagensSlides{
+  width: 36.75rem;
+  height: 24.5rem;
+}
+
+.imagensCupins{
+  width: 23.5rem;
+  height: 15.653rem;
+}
