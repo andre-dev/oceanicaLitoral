@@ -142,6 +142,12 @@
     padding-right: 3rem;
     margin-bottom: 20px !important;
   }
+  .flex{
+    flex-wrap: wrap;
+  }
+  .textoFooter{
+    text-align: center;
+  }
 }
 
 /* Ajusta os box do container nossos serviços */
@@ -280,4 +286,87 @@
 .imagensCupins{
   width: 23.5rem;
   height: 15.653rem;
+}
+
+.textoFooterOceanica{
+  margin-top: 20px;
+}
+
+.instaOceanica{
+  text-decoration: none !important;
+  color: white;
+}
+
+.instaOceanica:hover{
+  color: #007bff;
+}
+
+.enderecoOceanica{
+  text-decoration: none !important;
+  color: white;
+}
+
+.enderecoOceanica:hover{
+  color: #007bff;
+}
+
+.telefoneOceanica{
+  text-decoration: none !important;
+  color: white;
+}
+
+.telefoneOceanica:hover{
+  color: #007bff;
+}
+
+.localizacaoAtendimento{
+  color: white;
+  text-transform: uppercase;
+  margin-left: 1.125rem;
+}
+
+.cidadesAtendidas{
+  color: white;
+}
+
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 2px;
+  background: #007bff;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.containerCidades{
+  margin-top: -1.5rem;
+}
+
+.ajusteTextoFooter{
+  margin-left: 0.75rem;
+}
+
+.corWhatsOceanica{
+  color: #198754;
+}
+
+.ajusteArtigo{
+  margin-bottom: 5.625rem;
+  margin-top: -2.5rem;
 }
