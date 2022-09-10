@@ -110,6 +110,9 @@
   .flex{
     flex-wrap: wrap;
   }
+  .item{
+    font-size: 1.19em !important;
+  }
 }
 
 @media only screen and (max-width:425px) {
@@ -152,9 +155,12 @@
   .textoFooter{
     text-align: center;
   }
-  .btn-lg{
-    width: 97% !important;
-    font-size: 1.05rem !important;
+  /* .btn-lg{ */
+    /* width: 97% !important; */
+    /* font-size: 1.05rem !important; */
+  /* } */
+  .item{
+    font-size: 1.19em !important;
   }
 }
 
