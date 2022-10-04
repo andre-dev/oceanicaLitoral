@@ -16,7 +16,14 @@
 }
 .nossaExpertise{
   text-align: center;
+  padding-bottom: 10px;
+  font-weight: 700 !important;
+}
+.nossaExpertiseSub{
+  text-align: center;
   padding-bottom: 60px;
+  color: grey;
+  font-weight: 100 !important;
 }
 .linkVerMais{
   text-decoration: none;
@@ -385,4 +392,12 @@
 .ajusteArtigo{
   margin-bottom: 5.625rem;
   margin-top: -2.5rem;
+}
+
+.mensal{
+  font-size: 3.2rem !important;
+}
+
+.ficouDuvida{
+  font-size: 2.5rem !important;
 }
