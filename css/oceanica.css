@@ -313,39 +313,47 @@
 
 .textoFooterOceanica{
   margin-top: 20px;
+  font-size: 0.975em !important;
 }
 
 .instaOceanica{
   text-decoration: none !important;
   color: white;
+  font-size: 0.975em !important;
 }
 
 .instaOceanica:hover{
   color: #007bff;
+  font-size: 0.975em !important;
 }
 
 .enderecoOceanica{
   text-decoration: none !important;
   color: white;
+  font-size: 0.975em !important;
 }
 
 .enderecoOceanica:hover{
   color: #007bff;
+  font-size: 0.975em !important;
 }
 
 .telefoneOceanica{
   text-decoration: none !important;
   color: white;
+  font-size: 0.975em !important;
 }
 
 .telefoneOceanica:hover{
   color: #007bff;
+  font-size: 0.975em !important;
 }
 
 .localizacaoAtendimento{
   color: white;
   text-transform: uppercase;
   margin-left: 1.125rem;
+  font-size: 0.975em !important;
 }
 
 .cidadesAtendidas{
@@ -400,4 +408,21 @@
 
 .ficouDuvida{
   font-size: 2.5rem !important;
+}
+
+.corMenu{
+  color: rgb(255 255 255) !important;
+}
+
+.corMenu:hover{
+  color: rgba(255, 255, 255, 0.511) !important;
+}
+
+.ativo {
+  color: rgba(255, 255, 255, 0.511) !important;
+}
+
+.alinhaDescri{
+  margin-top: 80px !important;
+  margin-bottom: -30px !important;
 }
