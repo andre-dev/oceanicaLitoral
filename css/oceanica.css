@@ -415,14 +415,75 @@
 }
 
 .corMenu:hover{
-  color: rgba(255, 255, 255, 0.511) !important;
+  color: rgba(0, 123, 255, 1) !important;
 }
 
 .ativo {
-  color: rgba(255, 255, 255, 0.511) !important;
+  color: rgba(0, 123, 255, 1) !important;
 }
 
 .alinhaDescri{
   margin-top: 80px !important;
   margin-bottom: -30px !important;
+}
+.alignCardCenter{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.text-right{
+  text-align: end !important;
+  padding-right: 4.625rem;
+}
+
+.avaliacaoEsquerda{
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px;
+}
+
+.avaliacaoCentro{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.avaliacaoDireita{
+  display: flex;
+  justify-content: right;
+  margin-bottom: 10px;
+}
+
+.avaliadorConfiante{
+  margin-top: -150px;
+  width: 75% !important;
+}
+
+.alignHelp{
+    display: flex;
+    justify-content: center;
+}
+
+.ajusteTopoNossasAvaliacoes{
+  margin-top: 50px;
+}
+
+.corEstrela{
+  color: goldenrod;
+}
+
+/* Laudo de potabilidade */
+.mLaudo{
+  margin-top: 50px;
+}
+
+.listaLaudoEstrutura{
+  text-decoration: none !important;
+}
+.listaLaudo{
+    text-align: right;
+    padding-bottom: 20px;
+    color: grey;
+    font-weight: 100 !important;
+    font-size: 20px;
 }
