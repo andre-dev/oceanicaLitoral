@@ -487,3 +487,48 @@
     font-weight: 100 !important;
     font-size: 20px;
 }
+
+/* Banner Embarcações */
+
+.img-banner-embarcacoes{
+  padding-right: 6rem !important;
+  padding-left: 6rem !important;
+  margin-top: 0rem !important;
+  margin-bottom: 3rem !important;
+}
+
+
+/* Clients */
+.clients-logo {
+  margin: 0 0 30px;
+  border: 1px solid #dadada;
+  min-height: 105px;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.clients-logo img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-filter: gray;
+          filter: gray;
+}
+
+/* Column title */
+.column-title {
+  margin: 0 0 40px;
+}
+
+.column-title-small {
+  font-size: 20px;
+  margin: 0 0 25px;
+}
+
+.ajuste-registros{
+  margin-bottom: 5.625rem;
+  margin-top: 5.625rem !important;
+}
