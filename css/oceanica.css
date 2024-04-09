@@ -394,7 +394,7 @@
 }
 
 .corWhatsOceanica{
-  color: #198754;
+  color: #9ee7c5;
 }
 
 .ajusteArtigo{
@@ -531,4 +531,17 @@
 .ajuste-registros{
   margin-bottom: 5.625rem;
   margin-top: 5.625rem !important;
+}
+
+.btnW{
+  width: 100% !important;
+  height: 60px !important;
+  text-transform: uppercase !important;
+  font-size: 30px !important;
+  margin-top: 70px !important;
+}
+
+.descricaoDdt{
+  color: white !important;
+  text-transform: uppercase;
 }
