@@ -541,20 +541,6 @@
   margin-top: 4.375rem !important;
 }
 
-@media only screen and (max-width: 991px) {
-  .btnW{
-    width: 100% !important;
-    height: 3.75rem !important;
-    text-transform: uppercase !important;
-    font-size: 0.813rem !important;
-    margin-top: 4.375rem !important;
-    padding-top: 1.25rem;
-  }
-  .navbar-toggler{
-    display: none !important;
-  } 
-}
-
 .descricaoDdt{
   color: white !important;
   text-transform: uppercase;
@@ -568,4 +554,28 @@
 
 .espDesc{
   margin-bottom: 3rem !important;
+}
+
+@media only screen and (max-width: 991px) {
+  .btnW{
+    width: 100% !important;
+    height: 3.75rem !important;
+    text-transform: uppercase !important;
+    font-size: 0.813rem !important;
+    margin-top: 4.375rem !important;
+    padding-top: 1.25rem;
+  }
+  .navbar-toggler{
+    display: none !important;
+  }
+  
+  .metodosAplicacao{
+    margin-top: -5rem !important;
+    margin-bottom: 4rem !important;
+  }
+
+  .espDesc{
+    margin-bottom: 3rem !important;
+  }  
+
 }
